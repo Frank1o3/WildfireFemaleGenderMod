@@ -24,7 +24,7 @@ import com.wildfire.gui.GuiUtils;
 import com.wildfire.gui.WildfireButton;
 import com.wildfire.main.GenderConfigs;
 import com.wildfire.main.WildfireGender;
-import com.wildfire.main.WildfireGenderClient;
+import com.wildfire.WildfireGenderClient;
 import com.wildfire.main.config.ClientConfig;
 import com.wildfire.main.entitydata.PlayerConfig;
 import net.fabricmc.api.EnvType;

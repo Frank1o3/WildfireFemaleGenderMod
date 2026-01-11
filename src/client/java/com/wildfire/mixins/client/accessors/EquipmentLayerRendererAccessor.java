@@ -31,5 +31,5 @@ import java.util.function.Function;
 @Environment(EnvType.CLIENT)
 public interface EquipmentLayerRendererAccessor {
 	@Accessor
-	Function<EquipmentLayerRenderer.TrimSpriteKey, TextureAtlasSprite> getTrimSpriteLookup();
+	Function<EquipmentLayerRenderer, TextureAtlasSprite> getTrimSpriteLookup();
 }
