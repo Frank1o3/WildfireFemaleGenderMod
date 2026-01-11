@@ -2,8 +2,25 @@
 	"required": true,
 	"package": "com.wildfire.mixin.client",
 	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ArmorStandMixin"
+	],
 	"client": [
-		"ExampleClientMixin"
+		"AvatarRendererMixin",
+		"CustomFeatureRendererMixin",
+		"ItemStackMixin",
+		"LivingEntityMixin",
+		"LivingEntityRendererMixin",
+		"TextureManagerMixin",
+		"accessors.ClientMannequinAccessor",
+		"accessors.EquipmentLayerRendererAccessor",
+		"accessors.FeatureRenderDispatcherAccessor",
+		"accessors.GameRendererAccessor",
+		"accessors.LivingEntityRendererAccessor",
+		"accessors.YggdrasilMinecraftSessionServiceAccessor",
+		"cape.PlayerInfoMixin",
+		"cape.PlayerSkinMixin",
+		"cape.PlayerSkinWildfireImplMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

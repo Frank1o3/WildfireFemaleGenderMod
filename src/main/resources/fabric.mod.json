@@ -17,14 +17,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.wildfire.WildfireFemaleGenderMod"
+			"com.wildfire.main.WildfireGender"
 		],
 		"client": [
 			"com.wildfire.WildfireFemaleGenderModClient"
 		]
 	},
 	"mixins": [
-		"wildfirefemalegendermod.mixins.json",
 		{
 			"config": "wildfirefemalegendermod.client.mixins.json",
 			"environment": "client"
