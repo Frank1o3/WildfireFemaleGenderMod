@@ -8,7 +8,7 @@
 
 </div>
 
-This mod is a refactored version of the original made by a fan for simpler implementation of ideas, so if the mod as any issues pls don't contact the official version as this is a prof of concept of how the mod could be split into a main and client dir
+This mod is a refactored version of the original made by a fan for simpler implementation of ideas, so if the mod as any issues pls don't contact the official version as this is a prof of concept of how the mod could be split into a main and client dir, also if you want less errors or issues while using the mod use the official one in the mods contacts i have set it to the official version so if you find a lot of issues you can make a issue to my repo and just use the official one.
 
 ## Default Controls
 
